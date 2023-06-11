@@ -3,7 +3,7 @@ joblib==0.13.2
 jsonpickle==1.1
 more-itertools==6.0.0
 nltk
-numpy==1.16.2
+numpy
 pyparsing==2.3.1
 rdflib==4.2.2
 singledispatch==3.4.0.3
