@@ -36,10 +36,10 @@ def run(args):
 
     print("Parsing recipe1m entries")
 
-    for item in tqdm(recipe1m_arr):
+    for item in tqdm(recipe1m_arr[1:1000]):
         recipe1m[item["id"]] = item
 
-    for item in tqdm(det_ingrs_arr):
+    for item in tqdm(det_ingrs_arr[1:1000]):
         det_ingrs[item["id"]] = item
 
     results = []
